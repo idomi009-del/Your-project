@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beaches</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            margin: 20px;
+        }
+
+        header {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        /* descendant combinator (space between main and p) */
+        main p {
+            color: darkblue;
+        }
+
+        img {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <noscript>
+        <p>Turn on JavaScript or some stuff on this beach site wont work.</p>
+    </noscript>
+
+    <header>
+        <h1>Turtles</h1>
+        <p>This website is about turtles and how we need to help them.</p>
+    </header>
+
+    <nav>
+        <a href="#sec1">Stuff</a> 
+        <a href="#sec2">turtles</a> 
+        <a href="#sec3">More Info</a>
+    </nav>
+
+    <main>
+
+        <section id="sec1">
+            <h2>Why we need to help sea turtles<h2>
+            <p>There water is being polutted and its dirty and bad for their ecosystem.</p>
+        </section>
+
+        <section id="sec2">
+            <h2>How its bad</h2>
+           
+            <article>
+                <h3>why its bad</h3>
+                <p>They start to die causing extiction and they get sick and its bad for other marine animals.</p>
+            </article>
+
+            <figure>
+                <img src="https://media.outforia.com/images/2023/04/why-are-sea-turtles-endangered-0423-4.jpg"alt="a turtle">
+                <figcaption>A picture of a seaturtles.</figcaption>
+            </figure>
+        </section>
+
+        <section id="sec3">
+            <h2>Random Facts</h2>
+            <details>
+                <summary>Click to read a turtle tip</summary>
+                <p>throw your trash in a trash can and don't put trash in the ocean or anywhere else.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <footer>
+       
+    </footer>
+
+</body>
+</html>
